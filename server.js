@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/studyplanner', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://raghufks_db_user:3vsJ8eycjYDCMHPD@cluster0.cvq1otp.mongodb.net/?appName=Cluster0', {
   
 })
 .then(() => console.log('MongoDB connected successfully'))
